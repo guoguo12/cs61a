@@ -1,4 +1,4 @@
-# cs61b
-Resources for CS 61B students.
+# cs61a
+Resources for CS 61A students.
 
-Run `./generate` to generate HTML from Markdown.
+Run `make` to generate HTML from Markdown.
