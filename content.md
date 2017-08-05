@@ -9,7 +9,6 @@
 * Email: [allenguo@berkeley.edu](mailto:allenguo@berkeley.edu)
 * Office hours: TBD
 * Anonymous feedback form: [link](https://docs.google.com/forms/d/e/1FAIpQLSfeahd-Mjg09o-I0IcY_J5a21RgTkSWCorfJZWJ-hLNuXxqWA/viewform)
-* What I look like: [link](me.jpg) (190 KB)
 <!-- * Pre-section playlist: [link](https://open.spotify.com/user/lightningatdawn/playlist/1n4M5Tsqz7i5z2rqNtLuxG). -->
 
 ### Python
