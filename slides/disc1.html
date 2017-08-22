@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>Remark</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+# CS 61A &ndash; Discussion 1
+## Allen Guo
+## http://aguo.us/cs61a
+---
+layout: false
+.left-column[
+## About Me
+]
+.right-column[
+- Grew up in the suburbs of Washington, D.C.
+
+- 5th year masters student advised by Josh Hug
+
+- 5th semester as a teaching assistant
+  - Previously taught: 61AS, 61B, 188
+
+- Fun fact: ???
+]
+---
+class: center, middle, inverse
+# Your Turn!
+
+## Introduce yourself to your neighbors
+---
+layout: false
+.left-column[
+  ## Typical Discussion Agenda
+]
+.right-column[
+
+We start 10 minutes past the hour.
+
+- Announcements (5 min)
+
+- Quiz (10 min)
+
+- Lecture Recap (15 min)
+
+- Worksheet (30-50 min)
+
+- Q&A / Additional Recap (until end.red[*])
+
+.footnote[.red[*] Discussions are 80 minutes long.]
+]
+---
+# Announcements
+
+- Lab starts next week
+
+- Homework 0 due next Thursday
+
+- Join Piazza
+
+- Read the syllabus and Piazza guidelines
+---
+class: center, middle, inverse
+# Worksheet Time
+## 61A Presents: *Lost on the Moon*
+---
+class: center, middle
+# First-Day Advice
+## Stolen from the [r/learnprogramming FAQ](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_how_do_i_move_from_a_beginning_to_an_intermediate_level.3F)
+### If you're viewing this online, hit `p` to see the speaker notes
+???
+Nice, you found the speaker notes!
+---
+class: center, middle
+# #1: Switch from passive learning to active learning
+???
+Don't just absorb; learn to teach yourself.
+If something piques your curiousity during an assignment, don't be afraid to investigate it further, even if it's not part of the course.
+---
+class: center, middle
+# #2: Constantly be practicing
+???
+This course is basically problem-solving, and you can't get better at problem-solving without solving problems.
+It's no different than a math class, or playing Candy Crush.
+---
+class: center, middle
+# #3: Learn how to decompose problems
+???
+This is pretty straightforward, and it comes with time.
+Just keep it in mind.
+---
+class: center, middle
+# #4: Learn how to be systematic
+???
+Have a bug in your code? Don't do random stuff until you get lucky.
+Use print statements to narrow down where the bug might be.
+Before making a change, try to predict how the change will affect the program's behavior.
+---
+class: center, middle
+# #5: Don't be discouraged by having to debug or google
+???
+Debugging and googling are perfectly normal, even among professional programmers.
+---
+class: center, middle
+# #6: Don't be afraid to ask for help
+???
+Piazza, OH, discussion, lab, ...
+    </textarea>
+<!--
+---
+.left-column[
+## First-Day Advice
+]
+.right-column[
+Some guiding wisdom from the course staff:
+
+- Be tenacious
+
+- Practice a lot
+
+- Believe in your ability to grow
+
+Don't feel bad if you do not yet understand something
+]
+---
+.left-column[
+## More Advice
+]
+.right-column[
+Here's what I learned as an undergrad:
+
+- Don't fall behind
+
+  - If you *are* behind, you should still go to class
+
+- Make friends
+
+  - Studying is less fun alone
+
+- Don't cheat
+
+  - If you ever feel tempted, come talk to me instead
+
+- Don't take any one person's advice too seriously
+
+  - All advice is autobiographical
+]
+-->
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script>
+      var slideshow = remark.create({
+        navigation: { click: true },
+        highlightLines: true
+        }) ;
+    </script>
+  </body>
+</html>
+
