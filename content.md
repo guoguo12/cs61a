@@ -7,7 +7,7 @@
 ### About Me
 
 * Email: [allenguo@berkeley.edu](mailto:allenguo@berkeley.edu)
-* Office hours: TBD
+* Office hours: Tuesdays and Thursdays, 6:30-8:30pm (location TBD)
 * Anonymous feedback form: [link](https://docs.google.com/forms/d/e/1FAIpQLSfeahd-Mjg09o-I0IcY_J5a21RgTkSWCorfJZWJ-hLNuXxqWA/viewform)
 * Pre-section playlist: [link](https://open.spotify.com/user/lightningatdawn/playlist/63adRZRYaEPTOysaeGy7zv).
 
