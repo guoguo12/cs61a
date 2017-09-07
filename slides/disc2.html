@@ -190,6 +190,54 @@ print(h(0))
 - The function with intrinsic name `g` is a closure
 
     - What variable is "captured" or "closed over" by `g`?
+---
+# Recursion Done Wrong
+
+```python
+def f(x):
+    return f(x)
+```
+
+--
+
+- What's wrong with it?
+
+--
+
+    - No base case
+
+    - The recursive case doesn't make the problem smaller
+
+---
+# Recursion
+
+- Three things you need:
+
+--
+
+    - One or more base cases.
+
+    - One or more ways to make the problem smaller.
+
+    - One or more ways to solve the "big" problem using the "small" problem.
+
+---
+# Recursion Done Right
+
+```python
+def sum_up(n):
+    if n == 0:
+        return 0
+    return n + sum_up(n - 1)
+```
+
+- What does this function do?
+
+- Where's the base case?
+
+- Where do we make the problem smaller?
+
+- Where do we use the smaller problem to solve the bigger problem?
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
