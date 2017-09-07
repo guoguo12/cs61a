@@ -14,7 +14,8 @@
 ### Discussion Slides
 
 * Discussion 0 (8/24): [link](slides/disc0.html).
-* Discussion 1 (8/31): [link](slides/disc1.html). 
+* Discussion 1 (8/31): [link](slides/disc1.html).
+* Discussion 2 (9/7): [link](slides/disc2.html).
 
 ### Learning Python
 
