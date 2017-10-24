@@ -45,6 +45,8 @@
 ### Part II: Data Abstraction
 ### Part III: Objects and Sequences
 ### Part IV: Interpreters and Data
+* Confused about quotation?
+  * Refer to [this SO post](https://stackoverflow.com/questions/34984552/what-is-the-difference-between-quote-and-list).
 
 ### Inspiration and Wisdom
 
